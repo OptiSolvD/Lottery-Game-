@@ -1,0 +1,20 @@
+.lottery-controls{ margin-top:12px; }
+.lottery-result{
+  margin:8px 0 0;
+  font-size:1.1rem;
+  padding:10px 14px;
+  border-radius:10px;
+  min-width:240px;
+  text-align:center;
+  font-weight:700;
+}
+.lottery-result.win{
+  color:#07341a;
+  background:#c8f7d2;
+  box-shadow: 0 8px 22px rgba(0,120,40,0.06);
+}
+.lottery-result.lose{
+  color:#2b0a0a;
+  background:#ffd7d7;
+  box-shadow: 0 8px 22px rgba(120,0,0,0.04);
+}

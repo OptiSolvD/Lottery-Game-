@@ -1,0 +1,18 @@
+.ticket-num{
+  display:inline-block;
+  min-width:48px;
+  padding:10px 14px;
+  font-size:1.25rem;
+  font-weight:700;
+  text-align:center;
+  color:#0f1720;
+  background: linear-gradient(180deg,#ffd966 0%,#ffb84d 100%);
+  border-radius:10px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.35);
+  transition: transform .12s ease, box-shadow .12s ease;
+}   
+.ticket-num:hover,
+.ticket-num:focus{
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.45);
+}
